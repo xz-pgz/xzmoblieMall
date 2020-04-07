@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>后台管理系统-首页</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/bootstrap-validator/css/bootstrapValidator.min.css"/>
     <link rel="stylesheet" href="assets/nprogress/nprogress.css"/>
     <link rel="stylesheet" href="css/admin.css"/>
 </head>
@@ -37,7 +38,6 @@
     <!--顶部导航-->
     <nav class="ad_nav">
         <a data-menu href="javascript:;"><span class="glyphicon glyphicon-align-justify"></span></a>
-        <!--data-toggle="modal" data-target=".modal"-->
         <a data-logout href="javascript:;"><span class="glyphicon glyphicon-log-out"></span></a>
     </nav>
     <div class="container-fluid">
@@ -47,15 +47,14 @@
             <li class="active">首页</li>
         </ol>
         <div class="ad_content">
-            <!--注册人数树状图-->
-             <div class="picTable"></div>
-            <!--热门品牌销售占比-->
+            <div class="picTable"></div>
             <div class="picTable"></div>
         </div>
     </div>
 </section>
 <script src="assets/jquery/jquery.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap-validator/js/bootstrapValidator.min.js"></script>
 <script src="assets/nprogress/nprogress.js"></script>
 <script src="assets/echarts/echarts.min.js"></script>
 <script src="js/admin.js"></script>
