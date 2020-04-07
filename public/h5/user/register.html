@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <title>注册</title>
+    <link type="image/x-icon" rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../assets/mui/css/mui.min.css"/>
+    <link rel="stylesheet" href="../assets/fontAwesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/user.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <a href="javascript:window.history.back(-1)" class="header-left"><span class="fa fa-arrow-left"></span></a>
+        <h3 class="title">注册</h3>
+    </div>
+    <div class="content">
+        <form class="form_box">
+            <div class="mui-input-row">
+                <input name="username" type="text" placeholder="用户名">
+            </div>
+            <div class="mui-input-row">
+                <input name="mobile" type="text" placeholder="手机号">
+            </div>
+            <div class="mui-input-row">
+                <input name="password" type="password" placeholder="密码" class="mui-input-password">
+                <span class="mui-icon mui-icon-eye"></span>
+            </div>
+            <div class="mui-input-row">
+                <input name="rePass" type="password" placeholder="确认密码" class="mui-input-password">
+                <span class="mui-icon mui-icon-eye"></span>
+            </div>
+            <div class="mui-input-row">
+                <input name="vCode" type="text" placeholder="认证码">
+                <a href="javascript:;" class="btn_getCode mui-btn mui-btn-primary" id="code-btn">获取认证码</a>
+            </div>
+            <a href="javascript:;" class="mui-btn mui-btn-primary btn_register" id="btn_register">注册</a>
+            <div class="mui-input-row cz_text">
+                <input id="agree" type="checkbox" checked/> 我同意《会员服务协议》
+                <a href="login.html">立即登录</a>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <a href="../index.html" class="fa fa-home"><span>首页</span></a>
+        <a href="../category.html" class="fa fa-bars"><span>分类</span></a>
+        <a href="../user/cart.html" class="fa fa-shopping-cart"><span>购物车</span></a>
+        <a href="../user/index.html" class="fa fa-user"><span>会员中心</span></a>
+    </div>
+</div>
+<script src="../assets/mui/js/mui.min.js"></script>
+<script src="../assets/zepto/zepto.min.js"></script>
+<script src="../assets/artTemplate/template-native.js"></script>
+<script src="../js/config.js"></script>
+<script src="../js/user/register.js"></script>
+</body>
+</html>

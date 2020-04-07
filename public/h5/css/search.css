@@ -1,0 +1,89 @@
+.lt-search {
+  padding: 10px;
+}
+.lt-search .search-input {
+  width: 80%;
+  float: left;
+  background-color: #ffffff;
+  border: 1px solid #006699;
+  text-align: left;
+  height: 30px;
+  border-radius: 6px 0 0 6px;
+  padding: 0;
+  padding-left: 10px;
+  margin: 0;
+  line-height: 30px;
+}
+.lt-search .search-btn {
+  float: left;
+  width: 20%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #006699;
+  color: #ffffff;
+  border-radius: 0px 6px 6px 0;
+  font-size: 14px;
+}
+.lt-card-box {
+  margin: 0;
+  padding: 0;
+}
+.lt-card-item {
+  list-style: none;
+  float: left;
+  width: 25%;
+}
+.lt-card-item a {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  background-color: #eeeeee;
+  color: #3c3c3c;
+}
+.lt-card-item.now a {
+  color: #006699;
+}
+.lt-card-icon {
+  margin-left: 5px;
+}
+.lt-history .message {
+  padding: 0 15px;
+}
+.lt-history .message .record {
+  float: left;
+}
+.lt-history .message .delrecord {
+  float: right;
+}
+.delrecord .fa-trash {
+  margin-right: 5px;
+}
+.history-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 0px 10px;
+}
+.history-listItem {
+  border: 1px solid #eeeeee;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+}
+.history-listItem a {
+  flex:1;
+  line-height: 26px;
+}
+.history-title {
+  font-size: 14px;
+  color: #3c3c3c;
+}
+.history-icon {
+  color: #eeeeee;
+  vertical-align: middle;
+  padding: 5px;
+}

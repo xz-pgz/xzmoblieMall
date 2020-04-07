@@ -1,0 +1,85 @@
+/*login*/
+.register {
+    text-align: right;
+    padding-right: 5px;
+}
+.register a{
+    color: #006699;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 30px;
+    padding: 5px;
+}
+.mui-input-group:after {
+    background-color: transparent;
+}
+.button-login button{
+    width: 50%;
+    margin: 5px 0;
+}
+
+body{
+    background: #fff;
+}
+
+.form_box{
+    padding: 10px;
+}
+
+.btn_login,
+.btn_outLogin,
+.btn_register,
+.btn_submit,
+.btn_updatePass
+{
+    width: 100%;
+    margin: 20px 0;
+}
+.btn_disabled{
+    background: #999;
+    border-color: #999;
+}
+
+[type="text"][name="vCode"]{
+    width: 60%;
+    float: left;
+}
+.mui-input-row .btn_getCode{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    height: 40px;
+}
+
+
+
+.cz_text{
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+.cz_text [type=checkbox]{
+    vertical-align: middle;
+}
+.cz_text a{
+    float: right;
+}
+.bgg{
+    background: #efeff4;
+}
+.p20{
+    padding: 0 10px;
+}
+.delivery{
+    font-size: 12px;
+}
+.address{
+    font-size: 12px;
+    color: #ccc;
+    width: 100%;
+    white-space: normal;
+    padding-right:20px;
+}
+.btn_link {
+    border-radius: 0;
+}

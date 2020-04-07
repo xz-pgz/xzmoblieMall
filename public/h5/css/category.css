@@ -1,0 +1,65 @@
+/*输入框*/
+.cate-form {
+    width: 100%;
+    padding: 0 45px;
+    height:45px;
+    line-height: 45px;
+}
+.cate-form input {
+    height:30px;
+}
+/*改变placeholder颜色*/
+.cate-form input::-webkit-input-placeholder {
+     color: #EEEEEE;
+}
+.cate-form input::-moz-input-placeholder {
+     color: #EEEEEE;
+}
+.cate-form input::-ms-input-placeholder {
+    color: #EEEEEE;
+}
+.cate-left {
+    height: 100%;
+    width: 80px;
+    overflow: hidden;
+    float: left;
+}
+.cate-left ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cate-left li {
+    text-align: center;
+    width: 100%;
+}
+.cate-left li a {
+    line-height: 40px;
+    height:39px;
+    display: block;
+    color: #000000;
+    background-color: #f2f2f2;
+    border: 1px solid #d1d1d1;
+}
+.cate-left li.now a {
+    background-color: #ffff00;
+    border: 0px;
+}
+.cate-right {
+    overflow: hidden;
+}
+.cate-right a {
+    float: left;
+    width: 33.3333%;
+}
+.cate-right a img {
+    display: block;
+    font-size: 0;
+    width: 100%;
+    padding: 10px;
+}
+.cate-right a p {
+    color: #EEEEEE;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+/*nav 样式*/
+.img-nav {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 10px;
+}
+.img-nav a {
+    float: left;
+    width: 33.3333%;
+}
+.img-nav a img {
+    display: block;
+    width: 100%;
+}
+/*商品样式*/
+.shop-content {
+    padding: 10px;
+    overflow: hidden;
+}
+.shop-content a {
+    width: 48%;
+    float: left;
+}
+.shop-content a:nth-of-type(2n) {
+    margin-left: 4%;
+}
+.shop-content a img {
+    display: block;
+    width: 100%;
+}
+.shop-content a .shop-name {
+    /*padding: 5px;*/
+}
+.nowprice {
+    margin-right: 10px;
+    color: #c9302c;
+}
+.oldprice {
+    color:#EEEEEE;
+    font-size: 12px;
+}
+.shop-content a .shop-btn {
+    background-color: #006699;
+    color: #FFFFFF;
+}
