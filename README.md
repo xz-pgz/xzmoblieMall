@@ -1,11 +1,11 @@
 ## 乐淘电商
 ##写在前头
 启动项目 
-（1）.npm install 安装依赖
-（2）.docs 文件根目录下 letao 初始化.sql 导一下数据库
-（3）.models 也就是mvc 中的m 也就是数据操作层 这个文件根目录下 db.js 改一下自己的数据库配置
-（4）.npm start 跑一下这个项目
-（5）. 端口9000 http://localhost:9000/h5 是前台页面 http://localhost:9000/admin 是后台页面 登陆账号 root 登陆密码 123456
+（1）npm install 安装依赖
+（2）docs 文件根目录下 letao 初始化.sql 导一下数据库
+（3）models 也就是mvc 中的m 也就是数据操作层 这个文件根目录下 db.js 改一下自己的数据库配置
+（4）npm start 跑一下这个项目
+（5）端口9000 http://localhost:9000/h5 是前台页面 http://localhost:9000/admin 是后台页面 登陆账号 root 登陆密码 123456
 
 ### 移动端
 
